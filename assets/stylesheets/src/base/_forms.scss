@@ -1,0 +1,39 @@
+input,
+textarea {
+    background: #fff;
+    border-radius: 6px;
+    border: none;
+    color: $header-dark;
+    font-family: $font-main;
+    font-size: 12px;
+    height: 56px;
+    width: 100%;
+    padding:20px;
+    margin-bottom: 2.04082%;
+    color: $text-col;
+    font-size: 14px;
+    font-family: $font-main;
+    outline: none;
+
+    &:focus {
+        box-shadow: 0 0 3px 3px darken($brand-col, 10%);
+    }
+}
+
+input[type=submit] {
+    background: $header-dark;
+    color: $text-light;
+    padding: 0 50px;
+    text-transform: uppercase;
+
+    @include breakpoint(medium) {
+        width: auto;
+    }
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+}

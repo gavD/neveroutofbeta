@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    color: $text-col;
+    font-size: 14px;
+    font-family: $font-main;
+    line-height: 22px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    position: relative;
+
+    &.has-modal {
+        overflow: hidden;
+
+        @include breakpoint(large) {
+            overflow: auto;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+h1 {
+    color: $text-light;
+    line-height: 38px;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h2 {
+    color: $header-dark;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h3 {
+    color: $text-light;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+h4 {
+    color: $header-dark;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h5 {
+    color: $header-dark;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+a, a:visited {
+    color: $brand-col;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+section {
+    padding: 100px 0;
+}

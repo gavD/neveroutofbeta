@@ -1,0 +1,9 @@
+.page-intro {
+    @include hr(144px, $text-light);
+
+    text-align: center;
+
+    @include breakpoint(medium) {
+        @include respw(784px);
+    }
+}

@@ -1,0 +1,38 @@
+.site-header {
+    background: url(../images/top-banner.jpg) $brand-col right center;
+    background-size: cover;
+
+    .site-logo {
+        background-size: 120px 70px;
+        height: 70px;
+        width: 120px;
+        margin: 5px 0 0 0;
+        display: block;
+        position: relative;
+        z-index: 400;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 0.2s ease-out;
+
+        &:active {
+            transform: scale(.95);
+        }
+
+        span {
+            @include hide-text;
+        }
+
+        @include breakpoint(large) {
+            float: left;
+        }
+    }
+
+    a, a:visited {
+        color: $text-light;
+        line-height: 40px;
+    }
+}
+
+.js .site-header {
+    padding-top: 50px;
+}

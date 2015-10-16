@@ -1,0 +1,202 @@
+.mob-nav {
+    display: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.site-navigation {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 120px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+    }
+
+    li {
+        @extend h5;
+
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        line-height: 40px;
+        vertical-align: top;
+
+        a {
+            display: block;
+        }
+
+        &.has-button {
+            display: inline-block;
+            &:last-of-type {
+                margin-left: 10px;
+            }
+
+            a {
+                display: inline-block;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &.mob-only {
+            border:solid rgba(255,255,255,0.4);
+            border-width: 1px 0;
+        }
+    }
+
+    @include breakpoint(large) {
+        float: right;
+
+        li {
+            display: inline-block;
+            margin-left: resp(48px);
+            padding: 0;
+
+            &.mob-only {
+                display: none;
+            }
+        }
+    }
+}
+
+.headbar {
+    .hold {
+        position: relative;
+    }
+}
+
+
+.js {
+    .mob-nav {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 400;
+        cursor: pointer;
+        padding: 15px;
+
+        @include breakpoint(large) {
+            display: none;
+        }
+    }
+
+    .site-navigation {
+        background: $brand-col;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 60px;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 0.2s transform ease-out, 0.2s opacity ease-out;
+        z-index: 100;
+        padding-left: 0;
+
+        @include breakpoint(large) {
+            display: block;
+            background: transparent;
+            position: absolute;
+            opacity: 1;
+            height: auto;
+            padding-top: 0;
+            transform: translateX(0) translateY(15px);
+            padding-left: 120px;
+        }
+
+        &.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        li.has-button {
+            @media (max-width: map-get($breakpoints, large)) {
+                width: 50%;
+                float: left;
+                clear: right;
+                margin: 0;
+                padding-top: 20px;
+
+                &:last-of-type {
+                    text-align: left;
+                    padding-left: 2px;
+                }
+
+                &:nth-last-child(2) {
+                    text-align: right;
+                    padding-right: 2px;
+                }
+            }
+        }
+    }
+
+    .headbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        height: 76px;
+        padding-top: 10px;
+        background: transparent;
+        user-select: none;
+        transition: background 0.2s ease-out;
+    }
+
+    .not-top {
+        background: $text-light;
+        color: $text-col;
+        box-shadow: 0 1px 4px transparentize($text-col, 0.5);
+        //border-bottom: 1px solid lighten($text-col, 40%);
+
+
+        @include breakpoint(large){
+            .site-navigation {
+                transform: translateY(7px);
+            }
+
+            a, a:visited {
+                color: $text-col;
+            }
+
+            .current a {
+                color: $brand-col;
+            }
+        }
+
+        .site-logo {
+            background-size: 35px 33px;
+            height: 33px;
+            width: 35px;
+        }
+    }
+}
+
+.no-js {
+    .site-navigation {
+        @media (max-width: map-get($breakpoints, large)) {
+            position: static;
+            padding: 0;
+
+            li {
+                width: 50%;
+                float: left;
+                border: none;
+
+                &.has-button:last-of-type {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

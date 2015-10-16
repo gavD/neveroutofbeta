@@ -1,0 +1,21 @@
+.itunes,
+.soundcloud {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 141px;
+    display: block;
+
+    span {
+        @include hide-text;
+        display: none;
+    }
+}
+
+.itunes {
+    background: url(../images/itunes.png);
+}
+
+.soundcloud {
+    background: url(../images/soundcloud.png);
+}

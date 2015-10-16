@@ -1,0 +1,61 @@
+// Returns a percentage of a width given a pixel width
+// Uses full width unless a different context is provided (for nested elements)
+@function resp($target, $context:$width) {
+    @return ($target/$context)*100%;
+}
+
+// Gives an element a pertage width and centres it
+// Uses full width unless a different context is provided (for nested elements)
+@mixin respw($target, $context:$width){
+    width: resp($target, $context);
+    margin: 0 auto;
+}
+
+// mixin for hrs used under titles
+@mixin hr($width, $col) {
+    hr {
+        width: $width - 4;
+        height: 0;
+        border: 2px solid $col;
+    }
+}
+
+// Hides text
+@mixin hide-text{
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+// Switches text colour for sections with a datk background
+%dark-bg {
+    color: $text-light;
+
+    h1, h2, h3, h4, h5 {
+        color: $text-light;
+    }
+}
+
+// Simple micro clearfix
+%cf {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    *zoom: 1;
+}
+
+// Basic container
+.hold {
+    @extend %cf;
+
+    width: 90%;
+    max-width: $width;
+    margin: 0 auto;
+}

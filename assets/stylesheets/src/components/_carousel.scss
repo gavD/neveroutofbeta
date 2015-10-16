@@ -1,0 +1,74 @@
+.owl-theme {
+    position: relative;
+
+    .owl-controls{
+    	margin-top: 10px;
+    	text-align: center;
+    }
+
+    .owl-buttons {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -50px;
+        width: 100%;
+
+        div {
+            background: url(../images/white-arrow-l.png) center center no-repeat $brand-col;
+            text-indent: -1000000px;
+            position: absolute;
+            width: 30px;
+            height: 65px;
+            left: -50px;
+            border-radius: 0 6px 6px 0;
+
+            @include breakpoint(medium) {
+                width: 50px;
+                left: -80px;
+                height: 50px;
+                border-radius: 6px;
+            }
+
+            &.owl-next {
+                left: auto;
+                background-image: url(../images/white-arrow-r.png);
+                right: -50px;
+                border-radius: 6px 0 0 6px;
+
+                @include breakpoint(medium){
+                    right: -80px;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+
+    /* Styling Pagination*/
+
+    .owl-controls .owl-page{
+    	display: inline-block;
+    	zoom: 1;
+    	*display: inline;/*IE7 life-saver */
+    }
+    .owl-controls .owl-page span{
+    	display: block;
+    	width: 9px;
+    	height: 9px;
+    	margin: 5px;
+    	border-radius: 20px;
+    	background: $brand-col;
+        opacity: .3;
+        box-sizing: content-box;
+        border: 2px solid #fff;
+        transition: opacity 0.2s ease-out;
+    }
+
+    .owl-controls .owl-page.active span,
+    .owl-controls.clickable .owl-page:hover span{
+    	opacity: 1;
+        box-shadow: 0 0 0 2px #fff inset;
+        border: 1px solid $brand-col;
+    	width: 11px;
+    	height: 11px;
+    }
+}

@@ -1,0 +1,35 @@
+ [class^="icon-"],
+ [class^="icon-"]:visited {
+    color: $text-light;
+    background: $brand-col;
+    padding: 10px;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 22px;
+    font-size: 21px;
+    border-radius: 100px;
+    text-align: center;
+    transition: background .2s ease-in-out;
+
+    &:before {
+        margin-left: 2px;
+    }
+
+    &:hover {
+        background: darken($brand-col, 15%);
+        text-decoration: none;
+    }
+
+    span {
+        display: none;
+    }
+ }
+
+.icon-twitter:before {
+  margin-top: 2px;
+}
+
+.icon-facebook:before {
+   margin-left: 1px;
+}

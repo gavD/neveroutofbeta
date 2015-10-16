@@ -1,0 +1,19 @@
+/*
+ * A simple helper for break points.
+ * See https://jdsteinbach.com/css//sass-maps-breakpoint-mixin/ for more details
+ */
+$breakpoints: (
+  small: 480px,
+  medium: 720px,
+  large: 960px,
+  wide: 1200px
+);
+@mixin breakpoint($name) {
+  @if not map-has-key($breakpoints, $name) {
+    @warn "Warning: `#{$name}` is not a valid breakpoint name.";
+  } @else {
+    @media (min-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  }
+}

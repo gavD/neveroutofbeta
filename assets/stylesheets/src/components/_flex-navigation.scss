@@ -1,0 +1,91 @@
+#nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    //flex-wrap:wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    @include breakpoint(medium) {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    li {
+        text-align: center;
+
+        a {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.mob-nav,
+.mob-only {
+    @include breakpoint(medium) {
+        display: none;
+    }
+}
+
+.js {
+    #nav {
+        transform: translateX(100%);
+        background: $brand-col;
+        opacity: 0;
+        transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &.active {
+            transform: translateX(0);
+            opacity: 1;
+            z-index: 100;
+        }
+
+        @include breakpoint(medium) {
+            background: transparent;
+            transform: translateX(0);
+            opacity: 1;
+            justify-content: flex-end;
+        }
+    }
+
+    .mob-nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 400;
+        cursor: pointer;
+    }
+
+    .headbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .not-top {
+        background: $text-light;
+        color: $text-col;
+        border-bottom: 1px solid lighten($text-col, 40%);
+        height: 76px;
+
+        @include breakpoint(medium){
+            a, a:visited {
+                color: $text-col;
+            }
+
+            .current a {
+                color: $brand-col;
+            }
+        }
+    }
+}

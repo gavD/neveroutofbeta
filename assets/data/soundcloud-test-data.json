@@ -1,0 +1,456 @@
+{
+    "rss": {
+        "channel": {
+            "link": [
+                {
+                    "_href": "http://feeds.soundcloud.com/users/soundcloud:users:98930059/sounds.rss",
+                    "_rel": "self",
+                    "_type": "application/rss+xml",
+                    "__prefix": "atom"
+                },
+                "http://soundcloud.com/never-out-of-beta"
+            ],
+            "title": "Never Out Of Beta",
+            "pubDate": "Fri, 21 Aug 2015 11:24:02 +0000",
+            "lastBuildDate": "Fri, 21 Aug 2015 11:24:02 +0000",
+            "ttl": "60",
+            "language": "en",
+            "copyright": "All rights reserved",
+            "webMaster": "feeds@soundcloud.com (SoundCloud Feeds)",
+            "description": "A podcast about technology and software development.",
+            "subtitle": {
+                "__prefix": "itunes",
+                "__text": "A podcast about technology and software developme…"
+            },
+            "owner": {
+                "name": {
+                    "__prefix": "itunes",
+                    "__text": "Never Out Of Beta"
+                },
+                "email": {
+                    "__prefix": "itunes",
+                    "__text": "feeds@soundcloud.com"
+                },
+                "__prefix": "itunes"
+            },
+            "author": {
+                "__prefix": "itunes",
+                "__text": "Never Out Of Beta"
+            },
+            "explicit": {
+                "__prefix": "itunes",
+                "__text": "no"
+            },
+            "image": [
+                {
+                    "_href": "http://i1.sndcdn.com/avatars-000099049051-mtuod2-original.png",
+                    "__prefix": "itunes"
+                },
+                {
+                    "url": "http://i1.sndcdn.com/avatars-000099049051-mtuod2-original.png",
+                    "title": "Never Out Of Beta",
+                    "link": "http://soundcloud.com/never-out-of-beta"
+                }
+            ],
+            "category": {
+                "_text": "Technology",
+                "__prefix": "itunes"
+            },
+            "item": [
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/216706457"
+                    },
+                    "title": "\"I knew you'd say that\"",
+                    "pubDate": "Tue, 28 Jul 2015 12:28:58 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/i-knew-youd-say-that",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:32:18"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.24.\nA short one this month. We talk about:\n- The slow demise of Flash\n- How to approach the onboarding of junior team members\n- Apple Music, Last.fm and Shazam"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.24.\nA short one this month. We talk …"
+                    },
+                    "description": "Episode 0.9.24.\nA short one this month. We talk about:\n- The slow demise of Flash\n- How to approach the onboarding of junior team members\n- Apple Music, Last.fm and Shazam",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/216706457-never-out-of-beta-i-knew-youd-say-that.m4a",
+                        "_length": "46920535"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000124604201-iuhm31-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/210390882"
+                    },
+                    "title": "\"Cannibal Corpse being played on a harpsichord\"",
+                    "pubDate": "Mon, 15 Jun 2015 07:47:15 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/cannibal-corpse-being-played-on-a-harpsichord",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "01:01:07"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.23.\nTopics include Apple's open sourcing of Swift, Pixel Art, the difference between software engineers and computer scientists, hero programmers, and abstraction vs leverage.\nLinks:\n- http://www.dinofarmgames.com/a-pixel-artist-renounces-pixel-art/\n- http://dannorth.net/2011/01/11/programming-is-not-a-craft/\n- https://www.theapproachablegeek.co.uk/blog/geek-hero-syndrome/\n- http://thinkrelevance.com/blog/2013/04/04/abstraction-or-leverage"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.23.\nTopics include Apple's open sour…"
+                    },
+                    "description": "Episode 0.9.23.\nTopics include Apple's open sourcing of Swift, Pixel Art, the difference between software engineers and computer scientists, hero programmers, and abstraction vs leverage.\nLinks:\n- http://www.dinofarmgames.com/a-pixel-artist-renounces-pixel-art/\n- http://dannorth.net/2011/01/11/programming-is-not-a-craft/\n- https://www.theapproachablegeek.co.uk/blog/geek-hero-syndrome/\n- http://thinkrelevance.com/blog/2013/04/04/abstraction-or-leverage",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/210390882-never-out-of-beta-cannibal-corpse-being-played-on-a-harpsichord.m4a",
+                        "_length": "88740359"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000120280034-k2u81a-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/204864677"
+                    },
+                    "title": "\"Not without a blender\"",
+                    "pubDate": "Sun, 10 May 2015 22:07:33 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/not-without-a-blender",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "01:12:44"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.22!\nAs the UK General Election draws to a close, Gav and Craig discuss:\n- TDD and ECMAScript shims\n- Coping with a lack of productivity\n- How progress bars work\n- JavaScript in iOS apps\n- Recruiting and recruiters\n- Tech talk tales and Unified Diff happenings\nThe blog post referenced in the discussion on recruitment companies is http://leftontheweb.com/blog/2015/04/18/Finding_a_job_without_a_recruiter/"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.22!\nAs the UK General Election draw…"
+                    },
+                    "description": "Episode 0.9.22!\nAs the UK General Election draws to a close, Gav and Craig discuss:\n- TDD and ECMAScript shims\n- Coping with a lack of productivity\n- How progress bars work\n- JavaScript in iOS apps\n- Recruiting and recruiters\n- Tech talk tales and Unified Diff happenings\nThe blog post referenced in the discussion on recruitment companies is http://leftontheweb.com/blog/2015/04/18/Finding_a_job_without_a_recruiter/",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/204864677-never-out-of-beta-not-without-a-blender.m4a",
+                        "_length": "105581287"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000116335497-ocz5d2-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/201767775"
+                    },
+                    "title": "\"I remember eating three packs of Dolly Mixtures\"",
+                    "pubDate": "Mon, 20 Apr 2015 22:05:32 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/i-remember-eating-three-packs-of-dolly-mixtures",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:49:59"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.21!\nThe show returns after a hiatus enforced by Christmas, marriage, and audio catastrophe. Our topics are:\n- Slayer wine (http://www.slayer-drinks-shop.com)\n- The decline of Google Search\n- An interesting new hiring strategy(https://medium.com/backchannel/the-way-we-hire-is-all-wrong-3e19e2051f3e)\n- Silly interview questions (http://www.theguardian.com/money/work-blog/2015/mar/18/the-10-toughest-interview-questions)\n- Using libraries.io to find and keep track of our libraries (http://libraries.io)\n- Static site generators\n- The pros and cons of 'Release early, release often'"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.21!\nThe show returns after a hiatus …"
+                    },
+                    "description": "Episode 0.9.21!\nThe show returns after a hiatus enforced by Christmas, marriage, and audio catastrophe. Our topics are:\n- Slayer wine (http://www.slayer-drinks-shop.com)\n- The decline of Google Search\n- An interesting new hiring strategy(https://medium.com/backchannel/the-way-we-hire-is-all-wrong-3e19e2051f3e)\n- Silly interview questions (http://www.theguardian.com/money/work-blog/2015/mar/18/the-10-toughest-interview-questions)\n- Using libraries.io to find and keep track of our libraries (http://libraries.io)\n- Static site generators\n- The pros and cons of 'Release early, release often'",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/201767775-never-out-of-beta-i-remember-eating-three-packs-of-dolly-mixtures.m4a",
+                        "_length": "72575764"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000114065099-0pjeir-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/177005486"
+                    },
+                    "title": "\"You've got all the code that's ever been written\"",
+                    "pubDate": "Sat, 15 Nov 2014 08:41:26 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/youve-got-all-the-code-thats-ever-been-written",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:40:30"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.20!\n- Building the Swn Festival iOS app and API\n- Server and application monitoring with New Relic and DataDog\n- Versioning strategies with Git and Subversion\n- Thoughts on speaking at tech events\n- Microsoft's attitude towards community\n- Messaging with Air Droid and iMessage\n"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.20!\n- Building the Swn Festival iOS …"
+                    },
+                    "description": "Episode 0.9.20!\n- Building the Swn Festival iOS app and API\n- Server and application monitoring with New Relic and DataDog\n- Versioning strategies with Git and Subversion\n- Thoughts on speaking at tech events\n- Microsoft's attitude towards community\n- Messaging with Air Droid and iMessage\n",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/177005486-never-out-of-beta-youve-got-all-the-code-thats-ever-been-written.m4a",
+                        "_length": "58818295"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/avatars-000099049051-mtuod2-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/168109342"
+                    },
+                    "title": "\"You shouldn't have to click it\"",
+                    "pubDate": "Wed, 17 Sep 2014 08:05:28 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/you-shouldnt-have-to-click-it",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:41:41"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.19! Ramblings on:\n- Communication tools (Slack and Flowdock)\n- Gav in America\n- Approaches to Agile processes\n- Forward only deployments\n- Using AMIs to speed up EC2 provisioning"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.19! Ramblings on:\n- Communication to…"
+                    },
+                    "description": "Episode 0.9.19! Ramblings on:\n- Communication tools (Slack and Flowdock)\n- Gav in America\n- Approaches to Agile processes\n- Forward only deployments\n- Using AMIs to speed up EC2 provisioning",
+                    "enclosure": {
+                        "_type": "audio/mpeg",
+                        "_url": "http://feeds.soundcloud.com/stream/168109342-never-out-of-beta-you-shouldnt-have-to-click-it.mp3",
+                        "_length": "100061821"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000091273320-x87jey-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/162548236"
+                    },
+                    "title": "\"Don’t hack my computer and play Barbie Girl\"",
+                    "pubDate": "Sun, 10 Aug 2014 17:29:11 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/dont-hack-my-computer-and-play-barbie-girl",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:35:21"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.18\nGav and Craig discuss: MongoDB; ephemeral, immutable infrastructure; chat and Slack; Flickr and Stuart Butterfield; the dangers of feature flags; debugging in live environments; meetup organisation tips; developer Stockholm Syndrome."
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.18\nGav and Craig discuss: MongoDB; e…"
+                    },
+                    "description": "Episode 0.9.18\nGav and Craig discuss: MongoDB; ephemeral, immutable infrastructure; chat and Slack; Flickr and Stuart Butterfield; the dangers of feature flags; debugging in live environments; meetup organisation tips; developer Stockholm Syndrome.",
+                    "enclosure": {
+                        "_type": "audio/mpeg",
+                        "_url": "http://feeds.soundcloud.com/stream/162548236-never-out-of-beta-dont-hack-my-computer-and-play-barbie-girl.mp3",
+                        "_length": "84850937"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000087941537-xfx755-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/158078094"
+                    },
+                    "title": "\"That must interfere with your squats\"",
+                    "pubDate": "Thu, 10 Jul 2014 08:09:47 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/that-must-interfere-with-your-squats",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:37:47"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.17! We're talking about iPads, security and the Yo! app; WYSIWYGs; component based architectures; what makes the ideal Pull Request, and the practicality of Twitter conversations. Two awful jokes are thrown in for good measure."
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.17! We're talking about iPads, securi…"
+                    },
+                    "description": "Episode 0.9.17! We're talking about iPads, security and the Yo! app; WYSIWYGs; component based architectures; what makes the ideal Pull Request, and the practicality of Twitter conversations. Two awful jokes are thrown in for good measure.",
+                    "enclosure": {
+                        "_type": "audio/mpeg",
+                        "_url": "http://feeds.soundcloud.com/stream/158078094-never-out-of-beta-that-must-interfere-with-your-squats.mp3",
+                        "_length": "90701321"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000087941027-ff587l-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/154983640"
+                    },
+                    "title": "\"If Batman's got it he needs to open source it, right?\"",
+                    "pubDate": "Wed, 18 Jun 2014 21:40:16 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/if-batmans-got-it-he-needs-to-open-source-it-right",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:36:45"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.16! Gav and Craig talk about...\n- The World Cup, open source data, and technology in general in the realm of sport\n- The pros and cons of being a sole developer\n- Novel ways to help debug application issues\n- Accessibility support, and the lack thereof\n- A look ahead to various Cardiff meetups, including June's Unified Diff"
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.9.16! Gav and Craig talk about...\n- Th…"
+                    },
+                    "description": "Episode 0.9.16! Gav and Craig talk about...\n- The World Cup, open source data, and technology in general in the realm of sport\n- The pros and cons of being a sole developer\n- Novel ways to help debug application issues\n- Accessibility support, and the lack thereof\n- A look ahead to various Cardiff meetups, including June's Unified Diff",
+                    "enclosure": {
+                        "_type": "audio/mpeg",
+                        "_url": "http://feeds.soundcloud.com/stream/154983640-never-out-of-beta-if-batmans-got-it-he-needs-to-open-source-it-right.mp3",
+                        "_length": "88219200"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000087940943-dlk51g-original.png",
+                        "__prefix": "itunes"
+                    }
+                },
+                {
+                    "guid": {
+                        "_isPermaLink": "false",
+                        "__text": "tag:soundcloud,2010:tracks/153443958"
+                    },
+                    "title": "\"It's not in my Old Testament\"",
+                    "pubDate": "Sun, 08 Jun 2014 20:30:00 +0000",
+                    "link": "https://soundcloud.com/never-out-of-beta/episode-0-2-1-its-not-in-my",
+                    "duration": {
+                        "__prefix": "itunes",
+                        "__text": "00:31:28"
+                    },
+                    "author": {
+                        "__prefix": "itunes",
+                        "__text": "Never Out Of Beta"
+                    },
+                    "explicit": {
+                        "__prefix": "itunes",
+                        "__text": "no"
+                    },
+                    "summary": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.2.1 - Never Out Of Beta returns!\nGav and Craig discuss this week's WWDC keynote, provisioning their infrastructures with Ansible, and some upcoming Unified Diff talks."
+                    },
+                    "subtitle": {
+                        "__prefix": "itunes",
+                        "__text": "Episode 0.2.1 - Never Out Of Beta returns!\nGav a…"
+                    },
+                    "description": "Episode 0.2.1 - Never Out Of Beta returns!\nGav and Craig discuss this week's WWDC keynote, provisioning their infrastructures with Ansible, and some upcoming Unified Diff talks.",
+                    "enclosure": {
+                        "_type": "audio/x-m4a",
+                        "_url": "http://feeds.soundcloud.com/stream/153443958-never-out-of-beta-episode-0-2-1-its-not-in-my.m4a",
+                        "_length": "62774558"
+                    },
+                    "image": {
+                        "_href": "http://i1.sndcdn.com/artworks-000087940980-g8eef4-original.png",
+                        "__prefix": "itunes"
+                    }
+                }
+            ]
+        },
+        "_xmlns:atom": "http://www.w3.org/2005/Atom",
+        "_xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+        "_version": "2.0"
+    }
+}

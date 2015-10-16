@@ -1,0 +1,38 @@
+#get-in-touch {
+    @extend %dark-bg;
+    @include hr(52px, #50addf);
+
+    text-align: center;
+    background: $brand-col;
+
+    .top-fields {
+        @extend %cf;
+
+        margin-bottom: 2.04082%;
+        
+        @include breakpoint(medium) {
+            input,
+            textarea {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint(medium) {
+        .content {
+            @include respw(784px);
+        }
+
+        .top-fields {
+            label {
+                @include respw(384px, 784px);
+
+                float: left;
+
+                &:last-of-type {
+                    float: right;
+                }
+            }
+        }
+    }
+}

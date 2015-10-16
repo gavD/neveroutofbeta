@@ -1,0 +1,43 @@
+#podcasts {
+    width: 90%;
+    width: calc(100% - 100px);
+    margin: 0 auto;
+
+    @include breakpoint(medium){
+        width: 90%;
+        max-width: 1200px;
+        width: calc(100% - 200px);
+    }
+
+    .podcasts__links {
+        border-top: 1px solid #c2cdd2;
+        text-align: center;
+        padding-top: 23px;
+        margin-top: 46px;
+
+        a {
+            display: block;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            @include breakpoint(medium) {
+                display: inline-block;
+                padding: 0 10px;
+            }
+        }
+
+        span {
+            display: none;
+
+            @include breakpoint(medium) {
+                display: inline-block;
+            }
+        }
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,49 @@
+#about-us {
+    @extend %dark-bg;
+    @include hr(48px, #758086);
+
+    background: $header-dark;
+    padding: 0;
+
+    .hold {
+        width: 100%;
+    }
+
+    hr {
+        margin-left: 0;
+    }
+
+    section {
+        padding: 100px 5%;
+
+        &:last-of-type {
+            border-top: 1px solid #758086;
+            //padding-top: 0;
+        }
+    }
+
+    @include breakpoint(large) {
+        .hold {
+            width: 90%;
+        }
+
+        .hosts hr {
+            margin-bottom: 30px;
+        }
+
+        section {
+            width: resp(600px);
+            padding-right: resp(80px);
+            padding-left: 0;
+            float: left;
+
+            &:last-of-type{
+                padding-right: 0;
+                padding-left: resp(80px);
+                border-top: none;
+                border-left: 1px solid #758086;
+                padding-top: 100px;
+            }
+        }
+    }
+}

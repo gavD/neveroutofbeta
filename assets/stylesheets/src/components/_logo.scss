@@ -1,0 +1,61 @@
+%just-mark {
+    .logo-mark{
+        transform: scale(1.4);
+    }
+
+    #logo-words {
+        display: none;
+    }
+}
+
+.svg {
+    @extend %just-mark;
+
+    width: 120px;
+    height: 70px;
+
+    & > * {
+        fill: #fff;
+    }
+
+    .logo-mark {
+        transition: transform 0.2s ease-out;
+    }
+
+    .logo-mark > *{
+        transition: fill 0.2s ease-out;
+    }
+
+    @include breakpoint(large) {
+        .logo-mark{
+            transform: scale(1);
+        }
+
+        #logo-words {
+            display: block;
+        }
+    }
+
+    .not-top & {
+        @include breakpoint(large) {
+            .logo-mark{
+                transform: scale(1.4);
+            }
+
+            #logo-words {
+                display: none;
+            }
+        }
+
+        .logo-mark > *{
+            fill: $brand-col;
+        }
+    }
+}
+
+body.has-modal {
+    .logo-mark > *{
+        fill: $text-light !important;
+        transition: fill 0.2s ease-out;
+    }
+}

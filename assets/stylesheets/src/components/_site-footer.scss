@@ -1,0 +1,16 @@
+.site-footer {
+    
+    text-align: center;
+    padding: 80px 0;
+    border-top: 4px solid $brand-col;
+    font-weight: 700;
+
+    .button-links {
+        padding-bottom: 10px;
+
+        a {
+            margin-top: 10px;
+            display: inline-block;
+        }
+    }
+}
