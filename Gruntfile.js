@@ -18,7 +18,7 @@ module.exports = function(grunt) {
           'assets/javascripts/src/script.js' // Custom code 
         ],
         dest: 'assets/javascripts/script.min.js'
-      },
+      }
     },
 
     uglify: {
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
         files: ['assets/javascripts/src/script.js'],
         tasks: ['concat:js', 'uglify:js'],
         options: {
-          livereload: true,
+          livereload: true
         }
       },
 
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         files: ['assets/stylesheets/src/*.scss', 'assets/stylesheets/src/**/*.scss'],
         tasks: ['sass', 'pleeease'],
         options: {
-          livereload: true,
+          livereload: true
         }
       }
     }
