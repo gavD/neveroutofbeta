@@ -1,14 +1,21 @@
 {
   "name": "noob",
-  "version": "0.0.1",
-  "dependencies": {
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavd/neveroutofbeta"
+  },
+  "license": "MIT",
+  "devDependencies": {
     "grunt-cli": "latest",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-sass": "latest",
     "grunt-contrib-watch": "latest"
-  },
-  "devDependencies": {
-    "grunt-pleeease": "~1.1.0"
+    "concurrent-transform": "^1.0.0",
+    "fs": "0.0.2",
+    "grunt-pleeease": "~1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.2.0"
   }
 }
