@@ -19,6 +19,7 @@ Prerequisites
 
 * NPM
 * Grunt
+* Gulp (for deployment only)
 
 Installation
 --
@@ -34,4 +35,13 @@ Compiling the site
 
 ```bash
 grunt watch
+```
+
+Deployment
+--
+
+You will need the deployment keys for `machine-user-deploy-noob` to do this, then run:
+
+```bash
+gulp deploy
 ```
