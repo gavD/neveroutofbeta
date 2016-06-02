@@ -43,5 +43,5 @@ Deployment
 You will need the deployment keys for `machine-user-deploy-noob` to do this, then run:
 
 ```bash
-gulp deploy
+gulp aws-deploy
 ```
